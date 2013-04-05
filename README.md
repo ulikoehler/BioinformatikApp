@@ -9,7 +9,7 @@ this app provides useful tools for those who are studing bioinformatiks. If you 
 
 ### Compilation
 
-run compileAllCoffees.sh in the folder assets/www/coffee/ to compile all coffeescript files used in the app. After that, you could just use the native eclipse build actions.
+run compileAllCoffees.sh in the folder assets/www/coffee/ to compile all coffeescript files used in the app. After that, you could use the native eclipse build actions.
 
 ### Licence
 
