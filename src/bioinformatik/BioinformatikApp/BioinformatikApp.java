@@ -20,6 +20,7 @@
 package bioinformatik.BioinformatikApp;
 
 import android.os.Bundle;
+import android.view.*;
 import org.apache.cordova.*;
 
 public class BioinformatikApp extends DroidGap
@@ -31,6 +32,13 @@ public class BioinformatikApp extends DroidGap
         // Set by <content src="index.html" /> in config.xml
         super.loadUrl(Config.getStartUrl());
         //super.loadUrl("file:///android_asset/www/index.html")
+        
+        // disable long click text selection behaviour
+        super.appView.setOnLongClickListener(new View.OnLongClickListener() {
+            public boolean onLongClick(View v) {
+                return true;
+            }
+        });
     }
 }
 
