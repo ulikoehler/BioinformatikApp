@@ -13,4 +13,4 @@ run compileAllCoffees.sh in the folder assets/www/coffee/ to compile all coffees
 
 ### Licence
 
-feel free to copy, modify and publish ;)
+feel free to copy, modify and contribute ;)
