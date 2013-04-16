@@ -5,11 +5,14 @@ some useful tools collected in an app for studing bioinformatik using Apache Cor
 
 ### about this app 
 
-this app provides useful tools for those who are studing bioinformatiks. If you don't know what an alignment is, you probably don't need this app. 
+this app provides useful tools for everyone studying bioinformatics.
+If you don't (need to) know what an alignment is, you probably don't need this app. 
 
 ### Compilation
 
-run compileAllCoffees.sh in the folder assets/www/coffee/ to compile all coffeescript files used in the app. After that, just use the native eclipse build actions.
+Execute setup.sh (tbd).
+After that, just use the native Eclipse build actions.
+Of course you need to have the appropriate Android SDK installed.
 
 ### Licence
 
