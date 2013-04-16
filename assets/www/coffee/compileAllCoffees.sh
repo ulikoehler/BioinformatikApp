@@ -2,4 +2,4 @@
 
 # compile all coffee script files in this directory to js files
 
-coffee *.coffee
+coffee -c *.coffee
